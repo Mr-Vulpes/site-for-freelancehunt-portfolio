@@ -1,0 +1,256 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Mr Vulpes</title>
+</head>
+
+<body>
+
+  <!-- navbar -->
+
+  <header>
+    <nav class="nav-wrapper transparent z-depth-0">
+      <div class="container">
+        <a href="#" class="brand-logo">Mr Vulpes</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="nav-list-link" href="#photos">Зображення</a></li>
+          <li><a class="nav-list-link" href="#services">Послуги</a></li>
+          <li><a class="nav-list-link" href="#contact">Контакти</a></li>
+          <li>
+            <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#photos">Зображення</a></li>
+          <li><a href="#services">Сервіси</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- photo / grid -->
+
+  <section class="container section scrollspy" id="photos">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="./img/programming-collage.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text texr-darken-4">Верстання</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ab quo sapiente quibusdam nihil quisquam
+          omnis at aut harum qui. Facilis porro id obcaecati corporis! Perferendis laboriosam quod minima ducimus.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 push-l7 offset-l1">
+        <img src="./img/programming-code.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 pull-l5 right-align offset-l1 hide-on-med-and-down">
+        <h2 class="indigo-text texr-darken-4">Редагування</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ab quo sapiente quibusdam nihil quisquam
+          omnis at aut harum qui. Facilis porro id obcaecati corporis! Perferendis laboriosam quod minima ducimus.</p>
+      </div>
+      <div class="col s12 l6 pull-l5 offset-l1 hide-on-large-only">
+        <h2 class="indigo-text texr-darken-4">Редагування</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ab quo sapiente quibusdam nihil quisquam
+          omnis at aut harum qui. Facilis porro id obcaecati corporis! Perferendis laboriosam quod minima ducimus.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="./img/working-office.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text texr-darken-4">Nature</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ab quo sapiente quibusdam nihil quisquam
+          omnis at aut harum qui. Facilis porro id obcaecati corporis! Perferendis laboriosam quod minima ducimus.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./img/focus-software.jpg" alt="" class="reponsive-img" id="parallax-img1">
+    </div>
+  </div>
+
+  <!-- services / tabs -->
+
+  <section class="container section scrollspy" id="services">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken-4">Що я можу...</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam similique iste veniam consectetur facere
+          pariatur quidem dicta, harum, minima, asperiores vel odio officiis est cumque assumenda cum maiores ullam
+          quisquam.</p>
+        <p>Ullam fugit, placeat aperiam doloremque quaerat obcaecati asperiores incidunt et necessitatibus recusandae
+          itaque iste cum. Sapiente placeat earum magni explicabo laboriosam assumenda sequi quibusdam nisi quod totam
+          officia, omnis consectetur.</p>
+      </div>
+      <div class="col s12 l6 offset-l2">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#photography" class="indigo-text text-darken-4">Програмування</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#editing" class="indigo-text text-darken-4">Редагування</a>
+          </li>
+        </ul>
+        <div class="col s12" id="photography">
+          <p class="flow-text indigo-text text-darken-4 p-uppercase">Програмування</p>
+          <p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam similique iste veniam consectetur facere
+            pariatur quidem dicta, harum, minima, asperiores vel odio officiis est cumque assumenda cum maiores ullam
+            quisquam.</p>
+          <p>2 Ullam fugit, placeat aperiam doloremque quaerat obcaecati asperiores incidunt et necessitatibus
+            recusandae
+            itaque iste cum. Sapiente placeat earum magni explicabo laboriosam assumenda sequi quibusdam nisi quod totam
+            officia, omnis consectetur.</p>
+        </div>
+        <div class="col s12" id="editing">
+          <p class="flow-text indigo-text text-darken-4 p-uppercase">Редагування</p>
+          <p>3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam similique iste veniam consectetur facere
+            pariatur quidem dicta, harum, minima, asperiores vel odio officiis est cumque assumenda cum maiores ullam
+            quisquam.</p>
+          <p>4 Ullam fugit, placeat aperiam doloremque quaerat obcaecati asperiores incidunt et necessitatibus
+            recusandae
+            itaque iste cum. Sapiente placeat earum magni explicabo laboriosam assumenda sequi quibusdam nisi quod totam
+            officia, omnis consectetur.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./img/tabletop.jpg" alt="" class="reponsive-img" id="parallax-img2">
+    </div>
+  </div>
+
+  <!-- contact form -->
+
+  <section class="section container scrollspy" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="indigo-text text-darken-4"></h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nesciunt, saepe neque consequatur cumque
+          quasi aliquam fugiat molestiae perspiciatis. Totam temporibus modi similique laudantium saepe quasi odit
+          mollitia perferendis eligendi.</p>
+        <p>Itaque placeat dolor quae illo iure, sunt adipisci quaerat explicabo deserunt id, excepturi ipsa enim culpa
+          eveniet distinctio repellendus eius libero eos reiciendis debitis sint! Sequi porro nisi doloremque commodi!
+        </p>
+        <p>Fugiat dignissimos voluptatem possimus, ab cumque pariatur illo sunt animi vitae nam numquam. Cumque
+          consequuntur id totam exercitationem a, nam voluptas culpa provident fugiat cupiditate accusantium iure
+          numquam. Voluptatibus, mollitia!</p>
+        <p>Obcaecati modi sed praesentium accusamus facilis exercitationem quae omnis est, odit, ipsum id voluptas
+          necessitatibus ipsam ullam voluptates eos rem maiores porro voluptatem ratione quaerat consequuntur quam earum
+          eveniet? Soluta!</p>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Ваша електронна пошта</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea id="message" class="materialize-textarea"></textarea>
+            <label for="message">Ваше повідомлення</label>
+          </div>
+          <div class="input-field">
+            <input type="text" id="date" class="datepicker">
+            <label for="date">До котрого числа потрібно виконати замовлення...</label>
+          </div>
+          <div class="input-field">
+            <p>Послуги, що необхідні...</p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Верстання</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Редагування</span>
+              </label>
+            </p>
+          </div>
+          <div class="input-field center">
+            <button class="btn">Надіслати</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>Про мене</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad repellat odit reprehenderit voluptatem rem unde
+            recusandae asperiores corporis harum. Officiis eius quae blanditiis quisquam ullam voluptates corrupti,
+            dolorum similique quod?</p>
+          <p>Expedita quaerat iure, velit nostrum corrupti excepturi dicta quam cum commodi. Qui, fuga sed? Iusto
+            sapiente obcaecati reprehenderit tempora voluptate reiciendis nam vitae quisquam quae nemo quibusdam,
+            incidunt voluptates laboriosam!</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5>Я в соціальних мережах</h5>
+          <ul>
+            <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+            <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+            <li><a href="#" class="grey-text text-lighten-3">Linkedin</a></li>
+            <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2022 Mr Vulpes</div>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

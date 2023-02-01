@@ -1,0 +1,68 @@
+header {
+    background: url(./img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+  }
+
+  @media screen and (max-width: 670px) {
+    header {
+      min-height: 500px;
+    }
+  }
+
+  .section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+
+  .tabs .indicator {
+    background-color: #1a237e;
+  }
+
+  .tabs .tab a:focus,
+  .tabs .tab a:focus.active {
+    background: transparent;
+  }
+
+  .p-uppercase {
+    text-transform: uppercase;
+  }
+
+  .brand-logo {
+    pointer-events: none;
+  }
+
+  .nav-list-link {
+    position: relative;
+  }
+  
+  .nav-list-link::after {
+    content: "";
+    background: #17baaa;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    transform: scaleX(0);
+    transition: all .25s ease;
+  }
+  
+  .nav-list-link:hover {
+    color: #17baaa;
+    transition: all .25s ease;
+  }
+  
+  .nav-list-link:hover::after {
+    transform: scaleX(1);
+  }
+
+  #parallax-img1 {
+    width: 150vw;
+  }
+
+  #parallax-img2 {
+    width: 150vw;
+  }
